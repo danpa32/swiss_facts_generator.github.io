@@ -60,9 +60,19 @@
         .button:hover {
             background-color: #B71C1C;
         }
+		.background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: url('swiss_background.svg') no-repeat center center/cover;
+            z-index: -1;
+        }
     </style>
 </head>
 <body>
+	<div class="background"></div>
     <h1>🇨🇭 Swiss Fun Facts 🇨🇭</h1>
     <div class="main-container">
         <div class="next-label">Did you know?</div>
