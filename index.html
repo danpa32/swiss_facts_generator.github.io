@@ -25,13 +25,22 @@
             margin-top: 20px;
             margin-bottom: 40px;
         }
-        .main-container {
+        .content {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             flex-grow: 1;
+			margin-top: 20px;
         }
+		.main {
+			min-height: 100%;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			padding: 0.5em 0em 0em;
+			align-items: center;
+		}
         .next-label {
             font-size: 1.5em;
             font-weight: bold;
@@ -74,12 +83,18 @@
 </head>
 <body>
 	<div class="background"></div>
-    <h1>🇨🇭 Swiss Fun Facts 🇨🇭</h1>
-    <div class="main-container">
-        <div class="next-label">Did you know?</div>
-        <div class="fact-container" id="fact">Loading...</div>
-        <button class="button" onclick="loadFact()">Another fact? 🔄</button>
-    </div>
+	<div class="main">
+		<div class="header">
+			<h1>🇨🇭 Swiss Fun Facts 🇨🇭</h1>
+		</div>
+		<div class="content">
+			<div class="next-label">Did you know?</div>
+			<div class="fact-container" id="fact">Loading...</div>
+		</div>
+		<div class="footer">
+			<button class="button" onclick="loadFact()">Another fact? 🔄</button>
+		</div>
+	</div>
 
     <script>
         function loadFact() {
