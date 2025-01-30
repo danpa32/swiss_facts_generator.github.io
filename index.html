@@ -12,7 +12,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: center;
             height: 100vh;
             margin: 0;
             padding: 20px;
@@ -21,13 +21,21 @@
         h1 {
             font-size: 2em;
             color: #D32F2F;
-            margin-bottom: 10px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
         }
         .next-label {
             font-size: 1.5em;
             font-weight: bold;
             color: #D32F2F;
-            margin-top: 20px;
+            margin-bottom: 10px;
         }
         .fact-container {
             max-width: 600px;
@@ -37,10 +45,9 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             font-size: 1.2em;
-            margin-top: 10px;
+            margin-bottom: 20px;
         }
         .button {
-            margin-top: 20px;
             padding: 12px 20px;
             font-size: 1em;
             color: white;
@@ -53,26 +60,15 @@
         .button:hover {
             background-color: #B71C1C;
         }
-		.background {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            background: url('swiss_background.svg') no-repeat center center/cover;
-            z-index: -1;
-        }
     </style>
 </head>
 <body>
-	<div class="background"></div>
     <h1>🇨🇭 Swiss Fun Facts 🇨🇭</h1>
-	<div id="main-container">
-		<div class="next-label">Did you know?</div>
-		<div class="fact-container" id="fact">Loading...</div>
-		<button class="button" onclick="loadFact()">Another fact? 🔄</button>
-	</div>
-    
+    <div class="main-container">
+        <div class="next-label">Did you know?</div>
+        <div class="fact-container" id="fact">Loading...</div>
+        <button class="button" onclick="loadFact()">Another fact? 🔄</button>
+    </div>
 
     <script>
         function loadFact() {
