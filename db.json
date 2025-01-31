@@ -12,7 +12,7 @@
     {"id": 10, "fact": "Switzerland has more than 1,500 lakes, and you are never more than 10 miles from a lake no matter where you are in the country."},
     {"id": 11, "fact": "The longest tunnel in the world, the Gotthard Base Tunnel, is located in Switzerland and stretches over 57 km (35 miles)."},
     {"id": 12, "fact": "Albert Einstein developed his famous Theory of Relativity while living in Switzerland."},
-    {"id": 13, "fact": "Switzerland has the second-highest life expectancy in the world, after Japan."},
+    {"id": 13, "fact": "Switzerland has the fifth-highest life expectancy in the world."},
     {"id": 14, "fact": "Swiss people consume more chocolate per capita than any other nation in the world."},
     {"id": 15, "fact": "The Swiss banking system is famous for its secrecy laws and stability."},
     {"id": 16, "fact": "The Red Cross was founded in Switzerland in 1863 by Henry Dunant."},
@@ -39,6 +39,16 @@
     {"id": 37, "fact": "Swiss scientists developed the LSD drug in 1938."},
     {"id": 38, "fact": "Switzerland's postal system is one of the most efficient in the world."},
     {"id": 39, "fact": "The Swiss have one of the world's highest cheese consumption rates per capita."},
-    {"id": 40, "fact": "The FIFA headquarters are located in Zurich, Switzerland."}
+    {"id": 40, "fact": "The FIFA headquarters are located in Zurich, Switzerland."},
+    {"id": 41, "fact": "The longest glacier in Europe is a glacier in Switzerland called Aletsch Glacier."},
+    {"id": 42, "fact": "The capital of Switzerland is not Geneva or Zurich but Bern."},
+    {"id": 43, "fact": "The national sport in Switzerland is skiing."},
+    {"id": 44, "fact": "Swiss cow fighting is a traditional event in the canton of Valais."},
+    {"id": 45, "fact": "Ricola is a medicine of 13 herbal drops used by many Swiss against cough."},
+    {"id": 46, "fact": "Swiss French people use different words to count numbers compared to French people from France despite using the same language."},
+    {"id": 47, "fact": "Hiking is one of the most famous and accessible sports for everybody."},
+    {"id": 48, "fact": "The Alps make up almost 60% of the country."},
+    {"id": 49, "fact": "Even though Switzerland is a European country, the currency is not the euro but the Swiss franc."},
+    {"id": 50, "fact": "Cars are not allowed in some villages, such as Zermatt."}
   ]
 }
