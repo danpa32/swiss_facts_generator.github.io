@@ -13,14 +13,17 @@
             margin: 0;
             height: 100vh;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             text-align: center;
+            position: relative;
         }
         h1 {
             font-size: 2em;
             color: #D32F2F;
-            margin-bottom: 20px;
+            margin: 20px 0;
+            position: absolute;
+            top: 20px;
         }
         .fact-container {
             max-width: 600px;
@@ -54,12 +57,20 @@
             background: url('swiss_background.svg') no-repeat center center/cover;
             z-index: -1;
         }
+        .content {
+            margin-top: auto;
+            margin-bottom: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
 	<div class="background"></div>
-	<div>
-		<h1>🇨🇭 Swiss Fun Facts 🇨🇭</h1>
+	<h1>🇨🇭 Swiss Fun Facts 🇨🇭</h1>
+	<div class="content">
 		<div class="fact-container" id="fact">Loading...</div>
 		<button class="button" onclick="loadFact()">Another fact? 🔄</button>
 	</div>
